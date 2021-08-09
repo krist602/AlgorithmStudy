@@ -6,6 +6,7 @@
     //DFS
 
 #include <vector>
+
 using namespace std;
 
 bool dfs(vector<vector<int>>& computers, int x)
