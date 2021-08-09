@@ -1,0 +1,22 @@
+1. Greedy Algorithm (욕심쟁이 알고리즘)
+
+	- 매 선택에서 지금 이 순간 당장 최적인 답을 선택
+	- 하지만 매 선택에서 그 순간의 최적이라고 해서 전체적으로 최적이란 보장은 없다.
+
+2. Greedy Algorithm의 적용
+
+	▶ 탐욕 선택 속성(greedy choice property)
+	▶ 최적 부분 구조(optimal substructure)
+		특성을 가지는 문제들을 해결하는데 강점.
+		한번의 선택이 다음 선택에는 전혀 무관한 값이여야 하며, 매 순간의 최적해가 문제에 대한 최적해여야 한다는 의미.
+
+3. 사용되는 예시
+
+	- AI에 있어서 결정 트리 학습법(Decision Tree Learning)
+	- 활동 선택 문제(Activity selection problem)
+	- 거스름돈 문제[4]
+	- 최소 신장 트리 (Minimum spanning tree)
+	- 제약조건이 많은 대부분의 문제 [5]
+	- 다익스트라 알고리즘
+	- 허프만 코드
+	- 크러스컬 알고리즘
