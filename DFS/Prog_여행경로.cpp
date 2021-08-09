@@ -1,3 +1,9 @@
+// Programmers > 깊이 / 너비 우선 탐색(DFS / BFS) > 여행경로
+//https://programmers.co.kr/learn/courses/30/lessons/43163
+
+	//여행경로를 모두 저장한 이후, 가장 알파벳순으로 빠른 값을 찾아준다.
+	//DFS
+
 #include <string>
 #include <vector>
 #include <algorithm>
