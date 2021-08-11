@@ -1,0 +1,21 @@
+1. Floyd Warshall Algorithm
+
+	- 모든 정점에서 모든 정점으로 가는 최단 경로를 갱신하는 알고리즘
+
+2. Dijkstra Algorithm과의 차이
+
+	- Dijkstra는 특정한 노드 한 가지에서 다른 모든 노드로 가는 최단경로를 갱신.
+	- 그렇기에 Dijkstra는 1차원 배열 사용
+	- 그에 반해 Floyd Warshall은 모든 노드에서 다른 모든 노드로 가는 최단 경로를 갱신
+	- 그렇기에 Floyd Warchall은 2차원 배열 사용
+
+3. Floyd Warshall Algorithm의 구현
+
+	ㄱ. 먼저 각 노드들에서 나머지 노드들로 가는 비용을 배열에 정리
+	ㄴ. 이후 노드 1을 거쳐가는 경우부터 탐색
+		ex) 2->3 과 2->1->3 비교. 2->4와 2->1->4 비교. 3->2와 3->1->2 비교. . . . .
+	ㄷ. 이후 노드 2를 거쳐가는 경우부터 노드 i를 거쳐가는 경우까지 정리
+
+4. Floyd Warshacll Algorithm의 시간 복잡도
+
+	- 3중 for문을 사용하기에 O(N^3)의 시간복잡도.
