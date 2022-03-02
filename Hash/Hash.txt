@@ -1,0 +1,18 @@
+1. Hash
+
+	- Key와 Value로 이어진 쌍을 의미
+	- C++에서는 map, multimap, unordered_map 등이 있다.
+
+2. map의 특징
+
+	- 노드 기반으로 이루어져있고, Key와 Value값으로 구성되어있으며, pair 형태로 저장.
+	- 자동으로 정렬된다. default값은 오름차순
+	- <map> 헤더 파일에 속해 있다.
+	- 기본 생성 방법 : map<int, string> m1; , m1.insert(pair<int,string>(1,"Bell"));
+	- Key값은 Unique하기 때문에 중복을 허용하지 않는다.
+
+3. map과 multimap, unordered_map의 차이점
+
+	- map은 Key값의 중복을 허용하지 않지만, multimap은 Key값이 Unique하지 않는다.
+	- multimap에선 Key값이 같다면 들어온 순서대로 정렬된다.
+	- unordered_map은 정렬되지않는다.
