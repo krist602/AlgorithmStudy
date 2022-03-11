@@ -1,7 +1,6 @@
 //Programmers > 탐욕법(Greedy) > 조이스틱
 //https://programmers.co.kr/learn/courses/30/lessons/42860
 
-
 	//쓰레기 문제 !
 	//그리디로 해결할 수 없는 문제 !
 	//최솟값을 찾으라면서 반례가 존재하지만 통과했다.
