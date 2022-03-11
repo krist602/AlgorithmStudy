@@ -2,7 +2,7 @@
 //https://programmers.co.kr/learn/courses/30/lessons/12985
  
     //풀기 편하게 데이터만 살짝 편집해주면 되는 문제
-    //그래서 n은 왜 준걸까
+    //그래서 n은 왜 알려준걸까
 
 #include <iostream>
 
