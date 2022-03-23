@@ -5,6 +5,9 @@
 	//이걸 생각하기가 어려웠던 문제. 
 	//푸는 방법을 안 이후에 코드 구현은 쉬웠다.
 
+	//		substr 함수는 인자 2개가 begin과 end가 아니라 begin과 size이다.
+	//		substr(1, 5) -> [1]에서 5개만큼 자른다.
+
 #include <iostream>
 #include <string>
 #include <vector>
@@ -28,13 +31,13 @@ int main()
 		if (str.at(i) == '+') //연산자를 만난다면 그 직전까지가 숫자다.
 		{
 			oper.push_back(true);
-			nums.push_back(stoi(str.substr(s, i)));
+			nums.push_back(stoi(str.substr(s, i - s)));
 			s = i + 1;
 		}
 		else if (str.at(i) == '-')
 		{
 			oper.push_back(false);
-			nums.push_back(stoi(str.substr(s, i)));
+			nums.push_back(stoi(str.substr(s, i - s)));
 			s = i + 1;
 		}
 	}
