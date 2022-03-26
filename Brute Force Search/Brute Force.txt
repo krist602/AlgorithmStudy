@@ -1,0 +1,2 @@
+1. Brute Force Search란?
+	완전탐색
