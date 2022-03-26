@@ -1,0 +1,11 @@
+deque
+	queue의 양방향 버전. pop_back, pop_front, push_back, push_front로 사용이 가능하다.
+
+set 
+
+multiset
+	중복된 값의 input이 가능한 set
+
+priority_queue
+	queue와 유사하지만, 우선순위에 따라 정렬된다. default값은 Descending
+	우선순위를 지정해주고 싶다면 연산자오버로딩을 통해 구현할 수 있다.
