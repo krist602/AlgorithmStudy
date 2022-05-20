@@ -15,13 +15,8 @@ int solution(int n)
 
     while (loc != 0)
     {
-        if (loc % 2 == 0) //짝수라면 나눠주고
-            loc /= 2;
-        else //홀수라면 카운트를 1 더하고 1빼준다.
-        {
-            loc -= 1;
-            ans++;
-        }
+        ans += loc % 2; //홀수일 때만 ans에 값이 올라간다.
+        loc /= 2;
     }
 
     return ans;
