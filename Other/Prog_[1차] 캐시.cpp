@@ -1,5 +1,6 @@
 //Programmers > 2018 KAKAO BLIND RECRUITMENT > [1차] 캐시
 //https://programmers.co.kr/learn/courses/30/lessons/17680
+//2022-06-14(화) 16:20
 
 /*
     1. LRU는 Least Recently Used. 가장 오랫동안 참조하지 않은 페이지를 바꾸는 기법이다. 
