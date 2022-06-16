@@ -11,7 +11,7 @@ bool IsPrime(int num)
 
 	int root = (int)sqrt(num); //sqrt는 <cmath>라이브러리에 속한다.
 
-	for (int i = 0; i <= root; i++)
+	for (int i = 2; i <= root; i++)
 		if (num % i == 0)
 			return false;
 

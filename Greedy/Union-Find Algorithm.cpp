@@ -8,7 +8,7 @@ int findParent(int parent[], int x)
 	return parent[x] = find(parent, parent[x]);
 }
 
-void union(int parent[],int x, int y)
+void union(int parent[], int x, int y)
 {
 	x = findParent(parent, x);
 	y = findParent(parent, y);
